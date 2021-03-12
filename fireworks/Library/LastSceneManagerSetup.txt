@@ -1,5 +1,1 @@
-sceneSetups:
-- path: Assets/AssetPacks/Pine Forest_LowPoly/DemoScene/VegitationPack.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
+sceneSetups: []
