@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: d9bf9408b99d3804ab45eba8842994f0
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: headturn
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: headturn
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 18.26
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Satomi@headturn(Clone)
+      parentName: 
+      position: {x: 0.9376951, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Satomi__FBX_:Hips
+      parentName: Satomi@headturn(Clone)
+      position: {x: -0.009384404, y: 0.0004992425, z: 0.01058056}
+      rotation: {x: 0.7001583, y: 0.06437279, z: 0.06049581, w: 0.70850176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Spine
+      parentName: Satomi__FBX_:Hips
+      position: {x: -1.3562385e-10, y: 0.001112119, z: 0.00011186595}
+      rotation: {x: -0.024313955, y: -0.13168904, z: -0.014622024, w: 0.99088496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Chest
+      parentName: Satomi__FBX_:Spine
+      position: {x: 1.5957902e-13, y: 0.001, z: 4.7142172e-11}
+      rotation: {x: -0.0070159403, y: -0.028896518, z: 0.023020733, w: 0.9992927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Right shoulder
+      parentName: Satomi__FBX_:Chest
+      position: {x: 0.00024624149, y: 0.0019258469, z: 0.000035388748}
+      rotation: {x: 0.54136777, y: 0.51210904, z: 0.53782886, w: -0.39421508}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+    - name: Satomi__FBX_:Right arm
+      parentName: Satomi__FBX_:Right shoulder
+      position: {x: 0.000017360726, y: 0.001553374, z: 0.00009472773}
+      rotation: {x: 0.061767906, y: 0.16257343, z: 0.13704437, w: 0.97517866}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:Right elbow
+      parentName: Satomi__FBX_:Right arm
+      position: {x: 1.8626451e-11, y: 0.0022922168, z: 7.3050614e-11}
+      rotation: {x: -0.011507746, y: 0.026765084, z: -0.031985074, w: 0.9990636}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Satomi__FBX_:Right wrist
+      parentName: Satomi__FBX_:Right elbow
+      position: {x: -5.5879353e-11, y: 0.002660723, z: 9.461655e-10}
+      rotation: {x: -0.01697254, y: 0.036517844, z: 0.03070735, w: 0.9987169}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:Thumb0_R
+      parentName: Satomi__FBX_:Right wrist
+      position: {x: 0.00022125845, y: 0.000024314713, z: -0.00008289842}
+      rotation: {x: 0.03313147, y: -0.07126347, z: -0.35921806, w: 0.92993885}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: Satomi__FBX_:Thumb1_R
+      parentName: Satomi__FBX_:Thumb0_R
+      position: {x: -2.9802322e-10, y: 0.00057744165, z: 2.6077032e-10}
+      rotation: {x: -0.0068155457, y: 0.05764329, z: 0.03273315, w: 0.9977772}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: Satomi__FBX_:Thumb2_R
+      parentName: Satomi__FBX_:Thumb1_R
+      position: {x: -2.9802322e-10, y: 0.0003551881, z: -2.0489097e-10}
+      rotation: {x: -0.0072890506, y: 0.08920189, z: 0.03654432, w: 0.99531627}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:Thumb2_R_end
+      parentName: Satomi__FBX_:Thumb2_R
+      position: {x: -0, y: 0.0002687671, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:RingFinger1_R
+      parentName: Satomi__FBX_:Right wrist
+      position: {x: -0.00015650035, y: 0.00082919997, z: 0.000041535422}
+      rotation: {x: -0.047590446, y: -0.049121026, z: -0.015109622, w: 0.997544}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Satomi__FBX_:RingFinger2_R
+      parentName: Satomi__FBX_:RingFinger1_R
+      position: {x: 9.3132255e-12, y: 0.00042597327, z: -3.9086442e-10}
+      rotation: {x: -0.036617413, y: 0.025959438, z: 0.00027653493, w: 0.99899215}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Satomi__FBX_:RingFinger3_R
+      parentName: Satomi__FBX_:RingFinger2_R
+      position: {x: -2.7939677e-11, y: 0.00024582745, z: 0.0000000014121179}
+      rotation: {x: -0.03473306, y: -0.011507845, z: 0.0018551898, w: 0.9993287}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Satomi__FBX_:RingFinger3_R_end
+      parentName: Satomi__FBX_:RingFinger3_R
+      position: {x: -0, y: 0.00026499553, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:MiddleFinger1_R
+      parentName: Satomi__FBX_:Right wrist
+      position: {x: 0.00003887467, y: 0.0008268291, z: 0.00004678792}
+      rotation: {x: -0.0479836, y: -0.060093045, z: -0.024618203, w: 0.99673486}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Satomi__FBX_:MiddleFinger2_R
+      parentName: Satomi__FBX_:MiddleFinger1_R
+      position: {x: -7.4505804e-11, y: 0.0004592066, z: 3.3876857e-10}
+      rotation: {x: -0.033517756, y: -0.039563708, z: 0.002187284, w: 0.9986524}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:MiddleFinger3_R
+      parentName: Satomi__FBX_:MiddleFinger2_R
+      position: {x: -5.5879353e-11, y: 0.0002832938, z: 7.543713e-10}
+      rotation: {x: -0.036293805, y: 0.019481134, z: 0.0021836367, w: 0.99914885}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:MiddleFinger3_R_end
+      parentName: Satomi__FBX_:MiddleFinger3_R
+      position: {x: -0, y: 0.00031058304, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:LittleFinger1_R
+      parentName: Satomi__FBX_:Right wrist
+      position: {x: -0.0003505367, y: 0.00077773165, z: -0.000023523738}
+      rotation: {x: -0.04753969, y: -0.045131475, z: -0.014036243, w: 0.9977506}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: Satomi__FBX_:LittleFinger2_R
+      parentName: Satomi__FBX_:LittleFinger1_R
+      position: {x: 7.566996e-12, y: 0.00038963693, z: -0.000000001596718}
+      rotation: {x: -0.035871092, y: 0.019536503, z: 0.006185137, w: 0.9991463}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Satomi__FBX_:LittleFinger3_R
+      parentName: Satomi__FBX_:LittleFinger2_R
+      position: {x: -4.431058e-11, y: 0.00022456105, z: 1.476792e-10}
+      rotation: {x: -0.035503756, y: 0.0103750145, z: -0.0037035923, w: 0.9993088}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Satomi__FBX_:LittleFinger3_R_end
+      parentName: Satomi__FBX_:LittleFinger3_R
+      position: {x: -0, y: 0.00024077749, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:IndexFinger1_R
+      parentName: Satomi__FBX_:Right wrist
+      position: {x: 0.0002469046, y: 0.0008019588, z: 0.000018093198}
+      rotation: {x: -0.048417285, y: -0.03973532, z: -0.0418306, w: 0.99715954}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Satomi__FBX_:IndexFinger2_R
+      parentName: Satomi__FBX_:IndexFinger1_R
+      position: {x: 1.3038516e-10, y: 0.00041225867, z: -4.5576598e-10}
+      rotation: {x: -0.03575747, y: -0.021271963, z: 0.007894302, w: 0.99910295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:IndexFinger3_R
+      parentName: Satomi__FBX_:IndexFinger2_R
+      position: {x: -7.4505804e-11, y: 0.000253824, z: -6.170012e-10}
+      rotation: {x: -0.036787067, y: -0.0075819306, z: 0.00588636, w: 0.9992771}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:IndexFinger3_R_end
+      parentName: Satomi__FBX_:IndexFinger3_R
+      position: {x: -0, y: 0.00030066725, z: 0}
+      rotation: {x: -0.121352516, y: 0, z: -0, w: 0.9926095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Neck
+      parentName: Satomi__FBX_:Chest
+      position: {x: 1.6537881e-14, y: 0.0022389346, z: 5.0147816e-11}
+      rotation: {x: 0.16892153, y: -0.06697211, z: -0.06463214, w: 0.98122525}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:Head
+      parentName: Satomi__FBX_:Neck
+      position: {x: -1.9809931e-13, y: 0.00084937183, z: -4.8762664e-11}
+      rotation: {x: -0.09629693, y: -0.2859686, z: 0.048508156, w: 0.95215327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_Fbec18df_4ac2_4978_992f_7583b8fa65e1
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.0007393201, y: 0.0011780917, z: 0.0005834675}
+      rotation: {x: 0.9678262, y: -0.10436972, z: -0.10437009, w: -0.20378016}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999997}
+    - name: Satomi__FBX_:HairJoint_D5923853_3f80_4e88_Adbb_9f111bcd4635
+      parentName: Satomi__FBX_:HairJoint_Fbec18df_4ac2_4978_992f_7583b8fa65e1
+      position: {x: -4.377216e-10, y: 0.00044487655, z: 5.5879353e-11}
+      rotation: {x: 0.005827657, y: 0.017485356, z: -0.028404607, w: 0.9994266}
+      scale: {x: 1, y: 0.9999999, z: 1.0000001}
+    - name: Satomi__FBX_:HairJoint_D5923853_3f80_4e88_Adbb_9f111bcd4635_end
+      parentName: Satomi__FBX_:HairJoint_D5923853_3f80_4e88_Adbb_9f111bcd4635
+      position: {x: -0, y: 0.00044555037, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_Eac327e9_Ca53_4bde_916e_0296e4035041
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.00005901171, y: 0.0013263881, z: 0.0012162351}
+      rotation: {x: 0.99111897, y: -0.07563859, z: -0.07565067, w: 0.07898778}
+      scale: {x: 0.9999984, y: 0.9999998, z: 0.99999756}
+    - name: Satomi__FBX_:HairJoint_2fb35e2a_58f0_43a5_Bce2_F0a0cd6dfa62
+      parentName: Satomi__FBX_:HairJoint_Eac327e9_Ca53_4bde_916e_0296e4035041
+      position: {x: 1.1408701e-10, y: 0.00038248478, z: -1.4799298e-10}
+      rotation: {x: 0.17255253, y: -0.027563946, z: -0.0009021961, w: 0.9846142}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:HairJoint_2fb35e2a_58f0_43a5_Bce2_F0a0cd6dfa62_end
+      parentName: Satomi__FBX_:HairJoint_2fb35e2a_58f0_43a5_Bce2_F0a0cd6dfa62
+      position: {x: -0, y: 0.00038500878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_Da1cf04e_Ae6f_4690_8da2_79c6a4a98b53
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.0010824392, y: 0.0011263156, z: 0.00006803379}
+      rotation: {x: 0.95601326, y: 0.1112672, z: 0.11126673, w: -0.247544}
+      scale: {x: 1.0000001, y: 1, z: 1.0000005}
+    - name: Satomi__FBX_:HairJoint_827e22e3_0a38_4b89_9ad2_F16e1af526ce
+      parentName: Satomi__FBX_:HairJoint_Da1cf04e_Ae6f_4690_8da2_79c6a4a98b53
+      position: {x: 1.8373611e-10, y: 0.00027962495, z: -6.853952e-11}
+      rotation: {x: -0.04321609, y: -0.011118441, z: 0.005313894, w: 0.99898976}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Satomi__FBX_:HairJoint_827e22e3_0a38_4b89_9ad2_F16e1af526ce_end
+      parentName: Satomi__FBX_:HairJoint_827e22e3_0a38_4b89_9ad2_F16e1af526ce
+      position: {x: -0, y: 0.00028020216, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_C635b7b1_Aa08_4061_B820_C59d7d051ec0
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.00020551133, y: 0.0018718969, z: 0.0007497418}
+      rotation: {x: 0.92552507, y: -0.26496318, z: -0.26496336, w: -0.054701593}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_3e2b9f06_4a8f_4d0c_89da_9e278631f6f2
+      parentName: Satomi__FBX_:HairJoint_C635b7b1_Aa08_4061_B820_C59d7d051ec0
+      position: {x: -2.9802322e-10, y: 0.0003580913, z: 1.6763806e-10}
+      rotation: {x: 0.098664515, y: 0.040214203, z: -0.10530709, w: 0.98871565}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:HairJoint_A441e2c0_Bd9a_468b_8328_E9116d38e58c
+      parentName: Satomi__FBX_:HairJoint_3e2b9f06_4a8f_4d0c_89da_9e278631f6f2
+      position: {x: 1.4901161e-10, y: 0.0003659562, z: 4.0978193e-10}
+      rotation: {x: 0.0024533242, y: 0.00085432624, z: -0.002412601, w: 0.99999374}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: Satomi__FBX_:HairJoint_A441e2c0_Bd9a_468b_8328_E9116d38e58c_end
+      parentName: Satomi__FBX_:HairJoint_A441e2c0_Bd9a_468b_8328_E9116d38e58c
+      position: {x: -0, y: 0.00036612953, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_Afaa31fd_7753_479f_90ca_613120baa81e
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.00024305264, y: 0.0013895368, z: 0.0011547362}
+      rotation: {x: 0.9476062, y: -0.21731485, z: -0.21731603, w: -0.08712351}
+      scale: {x: 0.99999934, y: 0.9999998, z: 1}
+    - name: Satomi__FBX_:HairJoint_A0c29532_E891_4d0a_9e54_333915336860
+      parentName: Satomi__FBX_:HairJoint_Afaa31fd_7753_479f_90ca_613120baa81e
+      position: {x: 3.7252902e-11, y: 0.0002911555, z: -2.0489097e-10}
+      rotation: {x: 0.029129626, y: -0.00094737293, z: -0.013574253, w: 0.99948305}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_A0c29532_E891_4d0a_9e54_333915336860_end
+      parentName: Satomi__FBX_:HairJoint_A0c29532_E891_4d0a_9e54_333915336860
+      position: {x: -0, y: 0.00029183752, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_A6f9f1af_Ac4e_4d78_921f_E81d4daa1e83
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.00095005863, y: 0.0012673866, z: -0.00048542634}
+      rotation: {x: 0.9146085, y: 0.033135165, z: 0.033135172, w: -0.4016162}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:HairJoint_6e2a4b7c_1848_4e04_A969_0efc2a18c9ee
+      parentName: Satomi__FBX_:HairJoint_A6f9f1af_Ac4e_4d78_921f_E81d4daa1e83
+      position: {x: 6.519258e-11, y: 0.00028293254, z: 0.0000000011594966}
+      rotation: {x: 0.0031008308, y: 0.0065309205, z: -0.01635633, w: 0.99984014}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: Satomi__FBX_:HairJoint_6e2a4b7c_1848_4e04_A969_0efc2a18c9ee_end
+      parentName: Satomi__FBX_:HairJoint_6e2a4b7c_1848_4e04_A969_0efc2a18c9ee
+      position: {x: -0, y: 0.00028287256, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_36018f64_526d_4e13_B27a_9e70096cebec
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.00093796273, y: 0.0010830796, z: -0.00007228609}
+      rotation: {x: 0.9460167, y: -0.08787667, z: -0.08787653, w: -0.29934555}
+      scale: {x: 1, y: 1.0000001, z: 1.0000005}
+    - name: Satomi__FBX_:HairJoint_44ee48ec_A132_4c6b_A14f_B0b1a0526502
+      parentName: Satomi__FBX_:HairJoint_36018f64_526d_4e13_B27a_9e70096cebec
+      position: {x: 4.377216e-10, y: 0.0003123788, z: -6.519258e-11}
+      rotation: {x: 0.001221633, y: -0.0047920668, z: 0.008896504, w: 0.9999482}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Satomi__FBX_:HairJoint_44ee48ec_A132_4c6b_A14f_B0b1a0526502_end
+      parentName: Satomi__FBX_:HairJoint_44ee48ec_A132_4c6b_A14f_B0b1a0526502
+      position: {x: -0, y: 0.00031235153, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_07253a6e_1fcd_4b10_Ad83_Dc8bd00055dc
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.000818983, y: 0.0010643936, z: 0.00085839734}
+      rotation: {x: 0.9770842, y: 0.13457708, z: 0.13457778, w: -0.09531164}
+      scale: {x: 0.9999997, y: 1, z: 0.9999999}
+    - name: Satomi__FBX_:HairJoint_67dcd927_F908_41a4_8cf3_0e14a4bb045b
+      parentName: Satomi__FBX_:HairJoint_07253a6e_1fcd_4b10_Ad83_Dc8bd00055dc
+      position: {x: 5.0291415e-10, y: 0.00037933595, z: 2.9802322e-10}
+      rotation: {x: 0.0029561883, y: -0.0055180592, z: 0.007613334, w: 0.9999514}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Satomi__FBX_:HairJoint_67dcd927_F908_41a4_8cf3_0e14a4bb045b_end
+      parentName: Satomi__FBX_:HairJoint_67dcd927_F908_41a4_8cf3_0e14a4bb045b
+      position: {x: -0, y: 0.00037962277, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_5806da88_2c3c_4025_9683_392e3113379d
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.00005851143, y: 0.0013480806, z: -0.0013461387}
+      rotation: {x: 0.94813, y: 0.049467966, z: 0.04946804, w: -0.31008935}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999996}
+    - name: Satomi__FBX_:HairJoint_38a1cd8b_B8f4_42db_B9a5_D39df4beedf4
+      parentName: Satomi__FBX_:HairJoint_5806da88_2c3c_4025_9683_392e3113379d
+      position: {x: 2.7939677e-11, y: 0.00030437374, z: -0.0000000018855644}
+      rotation: {x: 0.007626987, y: -0.00051439425, z: 0.0021970274, w: 0.9999684}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:HairJoint_38a1cd8b_B8f4_42db_B9a5_D39df4beedf4_end
+      parentName: Satomi__FBX_:HairJoint_38a1cd8b_B8f4_42db_B9a5_D39df4beedf4
+      position: {x: -0, y: 0.00030431856, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_568f927a_7f7d_4af2_9434_Fc00cdd3824c
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.00083790784, y: 0.00071933627, z: 0.00047439925}
+      rotation: {x: 0.98743623, y: -0.07303838, z: -0.07303972, w: -0.11958395}
+      scale: {x: 0.9999997, y: 1, z: 0.9999994}
+    - name: Satomi__FBX_:HairJoint_568f927a_7f7d_4af2_9434_Fc00cdd3824c_end
+      parentName: Satomi__FBX_:HairJoint_568f927a_7f7d_4af2_9434_Fc00cdd3824c
+      position: {x: -0, y: 0.0005137628, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_9af38447_5989_4a4c_8f8a_1bd8196b341e
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.00027400584, y: 0.0012346911, z: 0.0011533916}
+      rotation: {x: 0.99094206, y: 0.09078348, z: 0.09076394, w: 0.039421897}
+      scale: {x: 1.0000033, y: 1.0000001, z: 1.000001}
+    - name: Satomi__FBX_:HairJoint_78c2f48e_D58f_4248_931d_20f38a34d4e7
+      parentName: Satomi__FBX_:HairJoint_9af38447_5989_4a4c_8f8a_1bd8196b341e
+      position: {x: 4.2840836e-10, y: 0.00040043273, z: -5.122274e-10}
+      rotation: {x: 0.092571154, y: -0.005945372, z: 0.021798871, w: 0.9954497}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+    - name: Satomi__FBX_:HairJoint_78c2f48e_D58f_4248_931d_20f38a34d4e7_end
+      parentName: Satomi__FBX_:HairJoint_78c2f48e_D58f_4248_931d_20f38a34d4e7
+      position: {x: -0, y: 0.00040178944, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_1be31375_8e0b_4df8_A0ee_52d1bedd9b55
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.0008723728, y: 0.0012803614, z: -0.0005748224}
+      rotation: {x: 0.9156636, y: 0.0064439485, z: 0.006443945, w: -0.40184218}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:HairJoint_Be66e7fb_A995_49fb_A75c_41a2e6c1e36c
+      parentName: Satomi__FBX_:HairJoint_1be31375_8e0b_4df8_A0ee_52d1bedd9b55
+      position: {x: 1.5133991e-10, y: 0.00030461227, z: 2.334127e-10}
+      rotation: {x: 0.002988311, y: -0.0050710817, z: 0.013077887, w: 0.9998972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:HairJoint_Be66e7fb_A995_49fb_A75c_41a2e6c1e36c_end
+      parentName: Satomi__FBX_:HairJoint_Be66e7fb_A995_49fb_A75c_41a2e6c1e36c
+      position: {x: -0, y: 0.0003045475, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Eye_R
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.0002123782, y: 0.00062164065, z: 0.000305463}
+      rotation: {x: 0.18389936, y: -0.19273691, z: -0.19273694, w: 0.94439715}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:Eye_R_end
+      parentName: Satomi__FBX_:Eye_R
+      position: {x: -0, y: 0.00033333342, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Eye_L
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.00021237863, y: 0.00062164065, z: 0.00030546304}
+      rotation: {x: 0.18389913, y: 0.19273746, z: 0.19273745, w: 0.94439703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Eye_L_end
+      parentName: Satomi__FBX_:Eye_L
+      position: {x: -0, y: 0.00033333353, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:LeftEye
+      parentName: Satomi__FBX_:Head
+      position: {x: -0.00025346686, y: 0.0006122124, z: 0.0004078108}
+      rotation: {x: 0, y: -8.4703295e-22, z: -8.4703295e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:LeftEye_end
+      parentName: Satomi__FBX_:LeftEye
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:RightEye
+      parentName: Satomi__FBX_:Head
+      position: {x: 0.0002534666, y: 0.0006122136, z: 0.00040781047}
+      rotation: {x: 0, y: -8.4703295e-22, z: -8.4703295e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:RightEye_end
+      parentName: Satomi__FBX_:RightEye
+      position: {x: -0, y: 0.0010000002, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Left shoulder
+      parentName: Satomi__FBX_:Chest
+      position: {x: -0.00024624198, y: 0.0019258104, z: 0.00003545352}
+      rotation: {x: 0.5615255, y: -0.48992133, z: -0.52153873, w: -0.41552803}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Satomi__FBX_:Left arm
+      parentName: Satomi__FBX_:Left shoulder
+      position: {x: -0.000017513048, y: 0.001547135, z: 0.00009359524}
+      rotation: {x: 0.08120382, y: -0.06347917, z: 0.054353014, w: 0.9931879}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Satomi__FBX_:Left elbow
+      parentName: Satomi__FBX_:Left arm
+      position: {x: -4.6566128e-12, y: 0.002292207, z: 2.9394867e-10}
+      rotation: {x: 0.0011062918, y: 0.10375977, z: 0.036876008, w: 0.99391794}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:Left wrist
+      parentName: Satomi__FBX_:Left elbow
+      position: {x: 1.11758706e-10, y: 0.0026607232, z: -0.0000000015344994}
+      rotation: {x: 0.07863431, y: 0.14820029, z: -0.061868846, w: 0.98388296}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:Thumb0_L
+      parentName: Satomi__FBX_:Left wrist
+      position: {x: -0.00022125772, y: 0.000024313045, z: -0.00008290061}
+      rotation: {x: -0.16877955, y: -0.2761555, z: 0.37387955, w: 0.8691753}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:Thumb1_L
+      parentName: Satomi__FBX_:Thumb0_L
+      position: {x: -5.2154064e-10, y: 0.0005774389, z: -4.1909514e-11}
+      rotation: {x: -0.013049792, y: -0.29939225, z: -0.03197838, w: 0.9535048}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Satomi__FBX_:Thumb2_L
+      parentName: Satomi__FBX_:Thumb1_L
+      position: {x: 6.705522e-10, y: 0.0003551892, z: 8.5681673e-10}
+      rotation: {x: -0.008679889, y: 0.01756286, z: -0.025065131, w: 0.9994939}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+    - name: Satomi__FBX_:Thumb2_L_end
+      parentName: Satomi__FBX_:Thumb2_L
+      position: {x: -0, y: 0.00026876733, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:RingFinger1_L
+      parentName: Satomi__FBX_:Left wrist
+      position: {x: 0.00015650086, y: 0.0008291979, z: 0.000041542084}
+      rotation: {x: -0.03808476, y: 0.058332436, z: 0.021015951, w: 0.9973491}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:RingFinger2_L
+      parentName: Satomi__FBX_:RingFinger1_L
+      position: {x: 4.6566128e-12, y: 0.00042597012, z: -8.268398e-10}
+      rotation: {x: -0.012808816, y: -0.027420748, z: -0.0002787377, w: 0.9995419}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:RingFinger3_L
+      parentName: Satomi__FBX_:RingFinger2_L
+      position: {x: 9.3132255e-12, y: 0.00024582722, z: 2.910383e-11}
+      rotation: {x: -0.030304587, y: 0.020428464, z: -0.0010666352, w: 0.9993314}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:RingFinger3_L_end
+      parentName: Satomi__FBX_:RingFinger3_L
+      position: {x: -0, y: 0.00026499733, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:MiddleFinger1_L
+      parentName: Satomi__FBX_:Left wrist
+      position: {x: -0.000038874594, y: 0.00082682475, z: 0.00004678772}
+      rotation: {x: -0.03808408, y: 0.050643213, z: 0.01188012, w: 0.9979197}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:MiddleFinger2_L
+      parentName: Satomi__FBX_:MiddleFinger1_L
+      position: {x: -1.4901161e-10, y: 0.0004592057, z: -0.0000000011688098}
+      rotation: {x: -0.020450683, y: 0.0068371054, z: -0.0034913311, w: 0.9997614}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:MiddleFinger3_L
+      parentName: Satomi__FBX_:MiddleFinger2_L
+      position: {x: -5.5879353e-11, y: 0.00028329305, z: 3.4458936e-10}
+      rotation: {x: -0.017200662, y: -0.016954092, z: -0.0005207386, w: 0.99970824}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Satomi__FBX_:MiddleFinger3_L_end
+      parentName: Satomi__FBX_:MiddleFinger3_L
+      position: {x: -0, y: 0.0003105821, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:LittleFinger1_L
+      parentName: Satomi__FBX_:Left wrist
+      position: {x: 0.00035053657, y: 0.0007777297, z: -0.000023519922}
+      rotation: {x: -0.038187064, y: 0.035117272, z: 0.03904189, w: 0.9978899}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:LittleFinger2_L
+      parentName: Satomi__FBX_:LittleFinger1_L
+      position: {x: -1.1641532e-12, y: 0.00038963623, z: -0.0000000011265001}
+      rotation: {x: -0.010379243, y: -0.005877991, z: -0.0005140403, w: 0.9999287}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Satomi__FBX_:LittleFinger3_L
+      parentName: Satomi__FBX_:LittleFinger2_L
+      position: {x: 5.0931703e-11, y: 0.00022456076, z: 2.1568211e-10}
+      rotation: {x: -0.0234741, y: 0.00014429909, z: 0.008750844, w: 0.9996862}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Satomi__FBX_:LittleFinger3_L_end
+      parentName: Satomi__FBX_:LittleFinger3_L
+      position: {x: -0, y: 0.00024077819, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:IndexFinger1_L
+      parentName: Satomi__FBX_:Left wrist
+      position: {x: -0.00024690505, y: 0.0008019553, z: 0.000018094051}
+      rotation: {x: -0.03767668, y: -0.01858456, z: 0.0025540146, w: 0.9991139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:IndexFinger2_L
+      parentName: Satomi__FBX_:IndexFinger1_L
+      position: {x: -1.8626451e-11, y: 0.000412255, z: -1.4901161e-10}
+      rotation: {x: -0.023480523, y: 0.039168935, z: -0.0026752648, w: 0.99895316}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:IndexFinger3_L
+      parentName: Satomi__FBX_:IndexFinger2_L
+      position: {x: 1.11758706e-10, y: 0.0002538231, z: 0.0000000012642704}
+      rotation: {x: -0.019969506, y: -0.14015251, z: 0.0024126829, w: 0.9899256}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Satomi__FBX_:IndexFinger3_L_end
+      parentName: Satomi__FBX_:IndexFinger3_L
+      position: {x: -0, y: 0.00030066943, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Right leg
+      parentName: Satomi__FBX_:Hips
+      position: {x: 0.00087036623, y: -0.0005477607, z: 0.000056125464}
+      rotation: {x: 0.9992237, y: -0.015460003, z: -0.033668865, w: -0.013396398}
+      scale: {x: 0.9999974, y: 0.9999998, z: 0.9999998}
+    - name: Satomi__FBX_:Right knee
+      parentName: Satomi__FBX_:Right leg
+      position: {x: -2.8303474e-11, y: 0.0039588916, z: -9.8953025e-12}
+      rotation: {x: 0.06718933, y: 0.019575575, z: -0.023533143, w: 0.9972706}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:Right ankle
+      parentName: Satomi__FBX_:Right knee
+      position: {x: 5.820766e-11, y: 0.0047033797, z: -2.4447217e-11}
+      rotation: {x: -0.5350461, y: 0.020299345, z: -0.008184173, w: 0.84453934}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: Satomi__FBX_:Right toe
+      parentName: Satomi__FBX_:Right ankle
+      position: {x: 3.6961864e-11, y: 0.0017940247, z: 2.9103829e-12}
+      rotation: {x: -0.22535856, y: 0.07512981, z: -0.020927934, w: 0.9711493}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: Satomi__FBX_:Right toe_end
+      parentName: Satomi__FBX_:Right toe
+      position: {x: -0, y: 0.0006442302, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Left leg
+      parentName: Satomi__FBX_:Hips
+      position: {x: -0.00087036623, y: -0.0005477607, z: 0.000056125617}
+      rotation: {x: 0.99718934, y: -0.02118007, z: 0.031880632, w: 0.064408086}
+      scale: {x: 0.999977, y: 0.99999976, z: 0.99999875}
+    - name: Satomi__FBX_:Left knee
+      parentName: Satomi__FBX_:Left leg
+      position: {x: 5.2095855e-11, y: 0.0039588925, z: -8.731149e-12}
+      rotation: {x: 0.096737064, y: -0.018865919, z: 0.024099981, w: 0.9948393}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Satomi__FBX_:Left ankle
+      parentName: Satomi__FBX_:Left knee
+      position: {x: -1.6298145e-11, y: 0.004703379, z: 5.8207657e-12}
+      rotation: {x: -0.53504765, y: -0.020263543, z: 0.008144102, w: 0.8445396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Satomi__FBX_:Left toe
+      parentName: Satomi__FBX_:Left ankle
+      position: {x: -3.1141097e-11, y: 0.0017940254, z: -4.5401974e-11}
+      rotation: {x: -0.22537789, y: -0.074692585, z: 0.02080019, w: 0.97118133}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Satomi__FBX_:Left toe_end
+      parentName: Satomi__FBX_:Left toe
+      position: {x: -0, y: 0.0006442218, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
